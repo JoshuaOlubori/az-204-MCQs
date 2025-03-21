@@ -2234,3 +2234,1175 @@ What is the advantage of using Azure Functions consumption plan for replication 
   <summary>Show Answer</summary>
   <b>B) Routing pattern</b>
 </details>
+
+### Question 196:
+What is the primary purpose of using Azure Functions for event replication tasks?
+
+-   A) To perform stateful event processing.
+-   B) To provide a scalable and reliable environment for stateless event forwarding.
+-   C) To analyze event data using SQL queries.
+-   D) To manage and monitor Azure Event Hubs.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To provide a scalable and reliable environment for stateless event forwarding.</b>
+</details>
+
+### Question 197:
+Which Azure service is recommended for stateful event replication tasks that involve event payload transformation and aggregation?
+
+-   A) Azure Functions
+-   B) Azure Stream Analytics
+-   C) Azure Logic Apps
+-   D) Azure Data Factory
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Azure Stream Analytics</b>
+</details>
+
+### Question 198:
+What is a replication task in the context of Azure Functions?
+
+-   A) A process to analyze event data.
+-   B) A task to receive events from a source and forward them to a target.
+-   C) A method to manage network configurations.
+-   D) A technique to store event data in Azure Blob Storage.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) A task to receive events from a source and forward them to a target.</b>
+</details>
+
+### Question 199:
+Which components are used to implement a replication task in Azure Functions?
+
+-   A) Storage accounts and containers.
+-   B) Triggers and output bindings.
+-   C) Virtual networks and subnets.
+-   D) Load balancers and gateways.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Triggers and output bindings.</b>
+</details>
+
+### Question 200:
+What is the recommended Azure Functions plan for replication applications that require access to Event Hubs bound to an Azure virtual network (VNet)?
+
+-   A) Consumption plan
+-   B) Premium plan
+-   C) Standard plan
+-   D) Basic plan
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Premium plan</b>
+</details>
+
+### Question 201:
+What is the purpose of configuring a retry policy in Azure Functions for replication tasks?
+
+-   A) To improve network throughput.
+-   B) To avoid data loss during availability events.
+-   C) To manage storage costs.
+-   D) To monitor application performance.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To avoid data loss during availability events.</b>
+</details>
+
+### Question 202:
+Which Azure monitoring tool is recommended for visualizing the reliability and performance of replication task transfers?
+
+-   A) Azure Monitor Metrics Explorer
+-   B) Application Insights Application Map
+-   C) Azure Log Analytics
+-   D) Azure Service Health
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Application Insights Application Map</b>
+</details>
+
+### Question 203:
+What is the primary characteristic of a stateless replication task?
+
+-   A) It maintains persistent storage.
+-   B) It shares state across executions.
+-   C) It does not share state or side-effects across executions.
+-   D) It performs complex data transformations.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) It does not share state or side-effects across executions.</b>
+</details>
+
+### Question 204:
+What is the benefit of using Azure Functions Premium plan for replication applications?
+
+-   A) Lower storage costs.
+-   B) Ability to collocate replication tasks written in different languages.
+-   C) Increased network security.
+-   D) Automatic data compression.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Ability to collocate replication tasks written in different languages.</b>
+</details>
+
+### Question 205:
+Which Azure resource is used to track replication progress and store logs in a replication application?
+
+-   A) Azure Key Vault
+-   B) Azure Storage account
+-   C) Azure Cosmos DB
+-   D) Azure Cache for Redis
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Azure Storage account</b>
+</details>
+
+### Question 206:
+**Scenario:** A developer wants to create a replication task that forwards events from an Event Hubs to another Event Hubs without any data transformation. Which Azure Functions components should they use?
+
+-   A) Azure Queue Storage trigger and output binding.
+-   B) Azure Event Hubs trigger and output binding.
+-   C) Azure Service Bus trigger and output binding.
+-   D) Azure Event Grid trigger and output binding.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Azure Event Hubs trigger and output binding.</b>
+</details>
+
+### Question 207:
+**Scenario:** A developer needs to ensure that replication tasks continue to function during temporary network outages. What should they configure?
+
+-   A) Storage account replication.
+-   B) Retry policy.
+-   C) Virtual network integration.
+-   D) Application scaling rules.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Retry policy.</b>
+</details>
+
+### Question 208:
+**Scenario:** A company wants to monitor the performance and reliability of their replication tasks in Azure Functions. Which Azure tool should they use?
+
+-   A) Azure Monitor Metrics Explorer.
+-   B) Application Insights Application Map.
+-   C) Azure Log Analytics.
+-   D) Azure Service Health.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Application Insights Application Map.</b>
+</details>
+
+### Question 209:
+**Scenario:** A developer wants to collocate replication tasks written in .NET and Java within the same Azure Functions application. Which Azure Functions plan should they choose?
+
+-   A) Consumption plan
+-   B) Premium plan
+-   C) Standard plan
+-   D) Basic plan
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Premium plan</b>
+</details>
+
+### Question 210:
+**Scenario:** A developer needs to replicate messages between Service Bus entities. Which Azure Functions components should they use?
+
+-   A) Azure Queue Storage trigger and output binding.
+-   B) Azure Event Hubs trigger and output binding.
+-   C) Azure Service Bus trigger and output binding.
+-   D) Azure Event Grid trigger and output binding.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Azure Service Bus trigger and output binding.</b>
+</details>
+
+### Question 211:
+What is the primary goal of the Replication pattern in Azure Event Hubs?
+
+-   A) To modify event payloads before forwarding.
+-   B) To copy events from one Event Hub to another without modifications.
+-   C) To route events to multiple destinations.
+-   D) To merge events from multiple sources into one destination.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To copy events from one Event Hub to another without modifications.</b>
+</details>
+
+### Question 212:
+How does Azure Functions ensure the relative order of events during replication?
+
+-   A) By using time-based offsets.
+-   B) By grouping related events with the same partition key.
+-   C) By replicating all events in a single batch.
+-   D) By assigning unique sequence numbers to each event.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) By grouping related events with the same partition key.</b>
+</details>
+
+### Question 213:
+What is the purpose of the Editor pattern in event replication?
+
+-   A) To copy events without modifications.
+-   B) To modify event payloads before forwarding.
+-   C) To route events to multiple destinations.
+-   D) To merge events from multiple sources.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To modify event payloads before forwarding.</b>
+</details>
+
+### Question 214:
+Which pattern involves sending events to multiple destinations based on message metadata or payload?
+
+-   A) Replication pattern
+-   B) Merge pattern
+-   C) Editor pattern
+-   D) Routing pattern
+
+<details>
+  <summary>Show Answer</summary>
+  <b>D) Routing pattern</b>
+</details>
+
+### Question 215:
+What is the primary function of the Log Projection pattern?
+
+-   A) To compress event logs.
+-   B) To flatten event streams into an indexed database.
+-   C) To encrypt event data.
+-   D) To filter out duplicate events.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To flatten event streams into an indexed database.</b>
+</details>
+
+### Question 216:
+What is the purpose of the Merge pattern in event replication?
+
+-   A) To copy events without modifications.
+-   B) To modify event payloads.
+-   C) To combine events from multiple sources into one target.
+-   D) To route events to multiple destinations.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) To combine events from multiple sources into one target.</b>
+</details>
+
+### Question 217:
+What is the role of the `function.json` file in Azure Functions configuration-only replication tasks?
+
+-   A) To define the event payload structure.
+-   B) To configure the input and output bindings and the entry point.
+-   C) To manage network security settings.
+-   D) To store event data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To configure the input and output bindings and the entry point.</b>
+</details>
+
+### Question 218:
+Which Azure Functions binding type is used to receive events from an Event Hub?
+
+-   A) `serviceBusTrigger`
+-   B) `eventHub`
+-   C) `eventHubTrigger`
+-   D) `queueTrigger`
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) `eventHubTrigger`</b>
+</details>
+
+### Question 219:
+What is the purpose of configuring a retry policy in Azure Functions for event replication tasks?
+
+-   A) To improve network throughput.
+-   B) To prevent data loss during transient failures.
+-   C) To reduce storage costs.
+-   D) To manage event hub partitions.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To prevent data loss during transient failures.</b>
+</details>
+
+### Question 220:
+What is the main advantage of using DNS-based failover configuration for Event Hubs?
+
+-   A) Faster data processing.
+-   B) Global replication and resilience against single-region outages.
+-   C) Lower storage costs.
+-   D) Simplified network management.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Global replication and resilience against single-region outages.</b>
+</details>
+
+### Question 221:
+**Scenario:** A developer wants to create a replication task that modifies the event payload by converting it from Apache Avro to JSON. Which pattern should they use?
+
+-   A) Replication pattern
+-   B) Merge pattern
+-   C) Editor pattern
+-   D) Routing pattern
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Editor pattern</b>
+</details>
+
+### Question 222:
+**Scenario:** A company needs to combine event streams from multiple Event Hubs into a single target Event Hub. Which pattern should they implement?
+
+-   A) Replication pattern
+-   B) Merge pattern
+-   C) Editor pattern
+-   D) Routing pattern
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Merge pattern</b>
+</details>
+
+### Question 223:
+**Scenario:** A developer wants to forward events to different destinations based on the event's metadata. Which pattern should they use?
+
+-   A) Replication pattern
+-   B) Merge pattern
+-   C) Editor pattern
+-   D) Routing pattern
+
+<details>
+  <summary>Show Answer</summary>
+  <b>D) Routing pattern</b>
+</details>
+
+### Question 224:
+**Scenario:** A company wants to create a time-series historian of their event data by flattening the event stream into an Azure Cosmos DB collection. Which pattern should they implement?
+
+-   A) Replication pattern
+-   B) Merge pattern
+-   C) Editor pattern
+-   D) Log Projection pattern
+
+<details>
+  <summary>Show Answer</summary>
+  <b>D) Log Projection pattern</b>
+</details>
+
+### Question 225:
+**Scenario:** A developer is configuring a replication task in Azure Functions using the `function.json` file. They need to specify the connection string for the source Event Hub. Which property should they use?
+
+-   A) `eventHubName`
+-   B) `connection`
+-   C) `consumerGroup`
+-   D) `type`
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) `connection`</b>
+</details>
+
+### Question 226:
+What is the primary benefit of Availability Zones in Azure Event Hubs?
+
+-   A) Cross-region disaster recovery.
+-   B) Intra-regional resiliency against datacenter failures.
+-   C) Geo-replication of data and metadata.
+-   D) Automatic failover to a secondary region.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Intra-regional resiliency against datacenter failures.</b>
+</details>
+
+### Question 227:
+What is the main difference between Geo-disaster recovery (Metadata DR) and Geo-replication in Azure Event Hubs?
+
+-   A) Geo-disaster recovery replicates both data and metadata, while Geo-replication replicates only metadata.
+-   B) Geo-disaster recovery replicates only metadata, while Geo-replication replicates both data and metadata.
+-   C) Geo-disaster recovery is for intra-regional redundancy, while Geo-replication is for cross-region redundancy.
+-   D) Geo-disaster recovery is automatic, while Geo-replication is manual.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Geo-disaster recovery replicates only metadata, while Geo-replication replicates both data and metadata.</b>
+</details>
+
+### Question 228:
+Which Azure Event Hubs tier supports the Geo-replication feature?
+
+-   A) Standard tier
+-   B) Premium tier
+-   C) Dedicated tier
+-   D) Basic tier
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Dedicated tier</b>
+</details>
+
+### Question 229:
+What are the two replication consistency settings available in Geo-replication?
+
+-   A) Automatic and manual.
+-   B) Synchronous and asynchronous.
+-   C) Primary and secondary.
+-   D) Local and global.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Synchronous and asynchronous.</b>
+</details>
+
+### Question 230:
+What is the purpose of the alias in Geo-disaster recovery?
+
+-   A) To replicate event data.
+-   B) To provide a single stable FQDN connection string.
+-   C) To manage network configurations.
+-   D) To monitor replication lag.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To provide a single stable FQDN connection string.</b>
+</details>
+
+### Question 231:
+Which type of failover is supported in Geo-disaster recovery?
+
+-   A) Automatic failover.
+-   B) Manual failover.
+-   C) Scheduled failover.
+-   D) Conditional failover.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Manual failover.</b>
+</details>
+
+### Question 232:
+What type of data is replicated in Geo-disaster recovery?
+
+-   A) Only event data.
+-   B) Only metadata.
+-   C) Both event data and metadata.
+-   D) No data is replicated.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Only metadata.</b>
+</details>
+
+### Question 233:
+What is the primary benefit of using synchronous replication in Geo-replication?
+
+-   A) Lower latency.
+-   B) Higher application availability.
+-   C) Stronger data consistency across regions.
+-   D) Automatic failover.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Stronger data consistency across regions.</b>
+</details>
+
+### Question 234:
+What is the purpose of monitoring the replication lag metric in Geo-replication?
+
+-   A) To manage network security.
+-   B) To track the progress of the replication job.
+-   C) To control event processing rates.
+-   D) To configure private endpoints.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To track the progress of the replication job.</b>
+</details>
+
+### Question 235:
+What is a key consideration when using Geo-disaster recovery with private endpoints?
+
+-   A) Only the primary namespace should have a private endpoint.
+-   B) Both primary and secondary namespaces should have private endpoints.
+-   C) Private endpoints are not supported with Geo-disaster recovery.
+-   D) Private endpoints should be configured in different virtual networks.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Both primary and secondary namespaces should have private endpoints.</b>
+</details>
+
+### Question 236:
+**Scenario:** A company wants to ensure high availability of their Event Hubs data across different Azure regions. They need to replicate both metadata and event data. Which feature should they use?
+
+-   A) Availability Zones
+-   B) Geo-disaster recovery (Metadata DR)
+-   C) Geo-replication
+-   D) Network security groups
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Geo-replication</b>
+</details>
+
+### Question 237:
+**Scenario:** A company wants to protect their Event Hubs namespace configuration from regional disasters. They only need to replicate metadata. Which feature should they use?
+
+-   A) Availability Zones
+-   B) Geo-disaster recovery (Metadata DR)
+-   C) Geo-replication
+-   D) Network security groups
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Geo-disaster recovery (Metadata DR)</b>
+</details>
+
+### Question 238:
+**Scenario:** A developer wants to minimize data loss during a regional outage. They configure Geo-replication with synchronous replication. What is a potential drawback of this configuration?
+
+-   A) Increased latency.
+-   B) Loss of metadata.
+-   C) Automatic failover.
+-   D) Inability to replicate data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>A) Increased latency.</b>
+</details>
+
+### Question 239:
+**Scenario:** A company wants to monitor the replication lag between their primary and secondary Event Hubs namespaces. Which Azure tool should they use?
+
+-   A) Azure Monitor Metrics Explorer
+-   B) Application Metrics logs
+-   C) Azure Log Analytics
+-   D) Azure Service Health
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Application Metrics logs</b>
+</details>
+
+### Question 240:
+**Scenario:** A developer is setting up Geo-disaster recovery for their Event Hubs namespaces. They need to ensure that client applications can connect to the active namespace without changing connection strings. What component should they use?
+
+-   A) Primary namespace connection string.
+-   B) Secondary namespace connection string.
+-   C) Alias connection string.
+-   D) Virtual network connection string.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Alias connection string.</b>
+</details>
+
+### Question 241:
+What is the primary benefit of spreading Event Hubs across multiple failure domains within a datacenter?
+
+-   A) Increased storage capacity.
+-   B) Reduced network latency.
+-   C) Mitigation of catastrophic failures.
+-   D) Automatic data compression.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Mitigation of catastrophic failures.</b>
+</details>
+
+### Question 242:
+What happens when a client application sends events to an Event Hub without specifying a partition?
+
+-   A) Events are discarded.
+-   B) Events are sent to a random partition.
+-   C) Events are automatically distributed among available partitions.
+-   D) Events are stored in a temporary buffer.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Events are automatically distributed among available partitions.</b>
+</details>
+
+### Question 243:
+What is the trade-off when a client application sends events to a specific partition?
+
+-   A) Increased storage costs.
+-   B) Reduced processing speed.
+-   C) Downgraded availability for the sake of consistency.
+-   D) Loss of event metadata.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Downgraded availability for the sake of consistency.</b>
+</details>
+
+### Question 244:
+What are throughput units in Azure Event Hubs?
+
+-   A) Units of storage capacity.
+-   B) Pre-purchased units of throughput capacity.
+-   C) Units of processing power.
+-   D) Units of network bandwidth.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Pre-purchased units of throughput capacity.</b>
+</details>
+
+### Question 245:
+What is the purpose of partitions in Azure Event Hubs?
+
+-   A) To reduce storage costs.
+-   B) To organize events for parallel processing and scaling.
+-   C) To encrypt event data.
+-   D) To manage network security.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To organize events for parallel processing and scaling.</b>
+</details>
+
+### Question 246:
+What is the primary function of a partition key in Event Hubs?
+
+-   A) To encrypt event data.
+-   B) To map incoming event data into specific partitions.
+-   C) To compress event data.
+-   D) To manage network security.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To map incoming event data into specific partitions.</b>
+</details>
+
+### Question 247:
+What happens when the ingress rate exceeds the purchased throughput units?
+
+-   A) Events are automatically compressed.
+-   B) Ingress is throttled and Event Hubs throws an exception.
+-   C) Events are stored in a temporary buffer.
+-   D) Events are sent to a different region.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Ingress is throttled and Event Hubs throws an exception.</b>
+</details>
+
+### Question 248:
+What is the Auto-inflate feature in Azure Event Hubs?
+
+-   A) A feature that automatically compresses event data.
+-   B) A feature that automatically scales up throughput units to meet usage needs.
+-   C) A feature that automatically encrypts event data.
+-   D) A feature that automatically manages network security.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) A feature that automatically scales up throughput units to meet usage needs.</b>
+</details>
+
+### Question 249:
+What is a stream in the context of Event Hubs partitions?
+
+-   A) A sequence of events identified by a partition key.
+-   B) A collection of event metadata.
+-   C) A set of network configurations.
+-   D) A storage container for event data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>A) A sequence of events identified by a partition key.</b>
+</details>
+
+### Question 250:
+How does Event Hubs handle event distribution when a partition is unavailable?
+
+-   A) Events are discarded.
+-   B) Events are sent to a temporary buffer.
+-   C) Events are distributed among the remaining partitions.
+-   D) Events are stored in a different region.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Events are distributed among the remaining partitions.</b>
+</details>
+
+### Question 251:
+**Scenario:** A company needs to ensure that events are processed in the order they arrive. They decide to send events to a specific partition. What trade-off should they be aware of?
+
+-   A) Increased storage costs.
+-   B) Reduced processing speed.
+-   C) Potential loss of availability if the partition is unavailable.
+-   D) Loss of event metadata.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Potential loss of availability if the partition is unavailable.</b>
+</details>
+
+### Question 252:
+**Scenario:** A developer wants to scale their Event Hubs application to handle increased event volume. They plan to increase the number of throughput units. What is the primary impact of this change?
+
+-   A) Increased storage capacity.
+-   B) Increased throughput capacity for ingress and egress.
+-   C) Improved network security.
+-   D) Automatic event compression.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Increased throughput capacity for ingress and egress.</b>
+</details>
+
+### Question 253:
+**Scenario:** A company wants to group related events together and ensure they are processed in the order they arrive. What feature should they use?
+
+-   A) Auto-inflate.
+-   B) Throughput units.
+-   C) Partition keys.
+-   D) Availability zones.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Partition keys.</b>
+</details>
+
+### Question 254:
+**Scenario:** A developer is designing an Event Hubs application that requires high availability. They want to avoid targeting specific partitions. What is the recommended approach for sending events?
+
+-   A) Use partition IDs.
+-   B) Use partition keys.
+-   C) Send events without specifying a partition.
+-   D) Use a temporary buffer.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Send events without specifying a partition.</b>
+</details>
+
+### Question 255:
+**Scenario:** An Event Hubs application is experiencing throttling due to high ingress rates. What Azure Event Hubs feature can automatically address this issue?
+
+-   A) Availability zones.
+-   B) Auto-inflate.
+-   C) Partition keys.
+-   D) Data compression.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Auto-inflate.</b>
+</details>
+
+### Question 256:
+What is the primary purpose of AMQP 1.0?
+
+-   A) To define a web-based messaging protocol.
+-   B) To standardize framing and transfer of messages asynchronously and securely.
+-   C) To provide a synchronous communication protocol.
+-   D) To replace HTTP for all network communications.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To standardize framing and transfer of messages asynchronously and securely.</b>
+</details>
+
+### Question 257:
+Which organization standardized the AMQP 1.0 protocol?
+
+-   A) IETF
+-   B) W3C
+-   C) OASIS
+-   D) ISO
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) OASIS</b>
+</details>
+
+### Question 258:
+What does the term "framing" mean in the context of AMQP?
+
+-   A) Encrypting message payloads.
+-   B) Providing structure for binary data streams.
+-   C) Compressing message data.
+-   D) Routing messages to different destinations.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Providing structure for binary data streams.</b>
+</details>
+
+### Question 259:
+What are the main components of an AMQP connection?
+
+-   A) Queues and topics.
+-   B) Containers, nodes, sessions, and links.
+-   C) HTTP requests and responses.
+-   D) TCP/IP addresses and ports.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Containers, nodes, sessions, and links.</b>
+</details>
+
+### Question 260:
+Which security protocol does Azure Service Bus require for AMQP connections?
+
+-   A) SSL
+-   B) TLS
+-   C) IPsec
+-   D) SSH
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) TLS</b>
+</details>
+
+### Question 261:
+What is the purpose of a "link" in AMQP?
+
+-   A) To establish a network connection.
+-   B) To create a session between containers.
+-   C) To transfer messages in one direction over a session.
+-   D) To authenticate users.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) To transfer messages in one direction over a session.</b>
+</details>
+
+### Question 262:
+What is the "transfer performative" in AMQP?
+
+-   A) A handshake for establishing a connection.
+-   B) A protocol gesture to move a message from sender to receiver.
+-   C) A method for encrypting messages.
+-   D) A mechanism for compressing message data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) A protocol gesture to move a message from sender to receiver.</b>
+</details>
+
+### Question 263:
+What is the purpose of "link credit" in AMQP?
+
+-   A) To authenticate users.
+-   B) To manage network bandwidth.
+-   C) To control the flow of messages between sender and receiver.
+-   D) To encrypt message data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) To control the flow of messages between sender and receiver.</b>
+</details>
+
+### Question 264:
+What happens when a message is "settled" in AMQP?
+
+-   A) The message is encrypted.
+-   B) Both parties have established a shared understanding of the transfer outcome.
+-   C) The message is compressed.
+-   D) The message is routed to a different destination.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Both parties have established a shared understanding of the transfer outcome.</b>
+</details>
+
+### Question 265:
+What is the purpose of the AMQP management specification?
+
+-   A) To define how to encrypt messages.
+-   B) To manage interactions with messaging infrastructure over AMQP.
+-   C) To compress message data.
+-   D) To route messages to different destinations.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To manage interactions with messaging infrastructure over AMQP.</b>
+</details>
+
+### Question 266:
+**Scenario:** A developer needs to ensure secure and asynchronous message transfer between two applications. Which protocol should they use?
+
+-   A) HTTP
+-   B) FTP
+-   C) AMQP 1.0
+-   D) SMTP
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) AMQP 1.0</b>
+</details>
+
+### Question 267:
+**Scenario:** An application needs to send messages to Azure Service Bus over a firewall that blocks ports 5671 and 5672. Which transport mechanism should be used?
+
+-   A) TCP over port 80.
+-   B) UDP over port 53.
+-   C) AMQP WebSockets over port 443.
+-   D) FTP over port 21.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) AMQP WebSockets over port 443.</b>
+</details>
+
+### Question 268:
+**Scenario:** An application sends a message to Azure Service Bus and wants to ensure the message is stored and accepted. What transfer mode should be used?
+
+-   A) Pre-settled transfer.
+-   B) Unsettled transfer with acceptance disposition.
+-   C) Released transfer.
+-   D) Modified transfer.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Unsettled transfer with acceptance disposition.</b>
+</details>
+
+### Question 269:
+**Scenario:** A client application needs to manage entities inside Azure Service Bus using AMQP. Which AMQP extension specification should be used?
+
+-   A) AMQP WebSockets binding.
+-   B) AMQP claims-based-security.
+-   C) AMQP management.
+-   D) AMQP link recovery.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) AMQP management.</b>
+</details>
+
+### Question 270:
+**Scenario:** A developer wants to control how many messages their application receives from Azure Service Bus at a time. What AMQP mechanism should they use?
+
+-   A) Sessions.
+-   B) Links.
+-   C) Link credit.
+-   D) Channels.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) Link credit.</b>
+</details>
+
+
+
+### Question 271:
+What is the purpose of the request/response interaction pattern in AMQP management?
+
+-   A) To encrypt message payloads.
+-   B) To enable management interactions with messaging infrastructure.
+-   C) To compress message data.
+-   D) To route messages to different destinations.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To enable management interactions with messaging infrastructure.</b>
+</details>
+
+### Question 272:
+Which AMQP specification defines a generalized model for using federated security tokens?
+
+-   A) AMQP WebSockets binding.
+-   B) AMQP claims-based-security (CBS).
+-   C) AMQP management.
+-   D) AMQP link recovery.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) AMQP claims-based-security (CBS).</b>
+</details>
+
+### Question 273:
+What is the purpose of the `$cbs` node in AMQP CBS?
+
+-   A) To encrypt message data.
+-   B) To manage network bandwidth.
+-   C) To accept tokens on behalf of other nodes.
+-   D) To compress message data.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) To accept tokens on behalf of other nodes.</b>
+</details>
+
+### Question 274:
+What are the three fundamental rights known by Azure Service Bus in the context of CBS tokens?
+
+-   A) Read, write, execute.
+-   B) Send, listen, manage.
+-   C) Create, update, delete.
+-   D) Authenticate, authorize, audit.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Send, listen, manage.</b>
+</details>
+
+### Question 275:
+What is the primary function of the "Send-via / Transfer sender" functionality in Azure Service Bus?
+
+-   A) To encrypt message data.
+-   B) To forward a message to a destination entity through another entity.
+-   C) To compress message data.
+-   D) To manage network security.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) To forward a message to a destination entity through another entity.</b>
+</details>
+
+### Question 276:
+What happens when an AMQP link is inactive for 30 minutes in Azure Event Hubs?
+
+-   A) The connection is closed.
+-   B) The link is closed.
+-   C) The message is deleted.
+-   D) The message is rerouted.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) The link is closed.</b>
+</details>
+
+### Question 277:
+What happens when an AMQP connection is inactive for 5 minutes in Azure Event Hubs?
+
+-   A) The link is closed.
+-   B) The connection is closed.
+-   C) The message is deleted.
+-   D) The message is rerouted.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) The connection is closed.</b>
+</details>
+
+### Question 278:
+What is the condition when an AMQP connection is closed due to inactivity?
+
+-   A) `amqp:link:detach-forced`
+-   B) `amqp:connection:forced`
+-   C) `amqp:message:expired`
+-   D) `amqp:network:timeout`
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) `amqp:connection:forced`</b>
+</details>
+
+### Question 279:
+What is the timeout for creating a link after an AMQP connection is established in Azure Event Hubs?
+
+-   A) 1 minute.
+-   B) 5 minutes.
+-   C) 10 minutes.
+-   D) 30 minutes.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>A) 1 minute.</b>
+</details>
+
+### Question 280:
+In the context of AMQP CBS, what does the `name` property in the request message identify?
+
+-   A) The type of token.
+-   B) The expiration time of the token.
+-   C) The entity with which the token shall be associated.
+-   D) The operation to be performed.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>C) The entity with which the token shall be associated.</b>
+</details>
+
+### Question 281:
+**Scenario:** An application needs to manage entities in Azure Service Bus using AMQP. What interaction pattern should be used?
+
+-   A) Publish/subscribe.
+-   B) Request/response.
+-   C) Peer-to-peer.
+-   D) Broadcast.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Request/response.</b>
+</details>
+
+### Question 282:
+**Scenario:** A client application needs to authenticate with Azure Service Bus using federated security tokens. Which AMQP specification should be used?
+
+-   A) AMQP WebSockets binding.
+-   B) AMQP claims-based-security (CBS).
+-   C) AMQP management.
+-   D) AMQP link recovery.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) AMQP claims-based-security (CBS).</b>
+</details>
+
+### Question 283:
+**Scenario:** A developer wants to send a message to a destination entity through an intermediary entity in Azure Service Bus. What functionality should be used?
+
+-   A) Link recovery.
+-   B) Send-via / Transfer sender.
+-   C) Message annotations.
+-   D) Message properties.
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) Send-via / Transfer sender.</b>
+</details>
+
+### Question 284:
+**Scenario:** An AMQP connection to Azure Event Hubs is closed due to inactivity. What error condition will be observed?
+
+-   A) `amqp:link:detach-forced`
+-   B) `amqp:connection:forced`
+-   C) `amqp:message:expired`
+-   D) `amqp:network:timeout`
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) `amqp:connection:forced`</b>
+</details>
+
+### Question 285:
+**Scenario:** A client application needs to send an authorization token to Azure Service Bus. Which AMQP node should it communicate with?
+
+-   A) `$management`
+-   B) `$cbs`
+-   C) `$transfer`
+-   D) `$link`
+
+<details>
+  <summary>Show Answer</summary>
+  <b>B) `$cbs`</b>
+</details>
